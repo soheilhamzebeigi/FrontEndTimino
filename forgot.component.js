@@ -54,15 +54,17 @@ export class Forgot extends Component {
                     <input type="email" className="form-control" placeholder="Email" onChange={e => this.email = e.target.value} />
                 </div>
 
-                <button className="btn btn-primary btn-block"> Submit</button> 
+                <button className="btn btn-primary btn-block">  <Link to={'/code'}>Receiving the Code</Link></button> 
+
+                {/* <button className="btn btn-primary btn-block"> Submit</button>  */}
 
                 {/* <button className="btn btn-primary btn-block" onClick={() => {
                     alert.show('Oh look, an alert!')
                     }}> Submit</button>  */}
 
-               <p className="forgot-password text-right">
+               {/* <p className="forgot-password text-right">
                         <Link to={'/code'}>Check Code</Link>
-                </p>
+                </p> */}
 
             </form>
         )
