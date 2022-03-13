@@ -54,11 +54,13 @@ export class Code extends Component {
                     <input type="code" className="form-control" placeholder="Code" onChange={e => this.code = e.target.value} />
                 </div>
 
-                <button className="btn btn-primary btn-block"> Submit</button> 
+                <button className="btn btn-primary btn-block">  <Link to={'/reset'}>checking the Code</Link></button> 
 
-                <p className="forgot-password text-right">
+                {/* <button className="btn btn-primary btn-block"> Submit</button>  */}
+
+                {/* <p className="forgot-password text-right">
                         <Link to={'/reset'}>Reset Password</Link>
-                </p>
+                </p> */}
 
                 {/* <button className="btn btn-primary btn-block" onClick={() => {
                     alert.show('Oh look, an alert!')
