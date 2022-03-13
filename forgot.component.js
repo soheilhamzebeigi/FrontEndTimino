@@ -56,6 +56,14 @@ export class Forgot extends Component {
 
                 <button className="btn btn-primary btn-block"> Submit</button> 
 
+                {/* <button className="btn btn-primary btn-block" onClick={() => {
+                    alert.show('Oh look, an alert!')
+                    }}> Submit</button>  */}
+
+               <p className="forgot-password text-right">
+                        <Link to={'/code'}>Check Code</Link>
+                </p>
+
             </form>
         )
     }
