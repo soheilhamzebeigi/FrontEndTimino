@@ -13,6 +13,7 @@ import Register from './components/register.component';
 import axios from 'axios';
 import { Forgot } from './components/forgot.component';
 import { Reset } from './components/reset.component';
+import { Code } from './components/code.component';
 
 
 export default class App extends Component {
@@ -51,6 +52,7 @@ export default class App extends Component {
               <Route exact path='/login' element={() => <Login setUser={this.setUser} />} />
               <Route exact path='/register' element={<Register/>} />
               <Route exact path='/forgot' element={<Forgot/>}  />
+              <Route exact path='/code' element={<Code/>}  />
               <Route exact path='/reset/:id' element={<Reset/>}  />
 
             </Routes>
