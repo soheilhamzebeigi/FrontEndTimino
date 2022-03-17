@@ -9,7 +9,7 @@ import HomePage from './components/pages/HomePage'
 import CodePage from './components/pages/Code'
 import ResetPage from './components/pages/ResetPage'
 
-import './App.css'
+import './App2.css'
 
 export default function App() {
     return (
